@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-family: 'Ubuntu',  sans-serif;
+}
+
+
+body{
+  display: flex;
+  background: url('/asset/img/Hình-nền-PP-dễ-thương.jpg') center no-repeat;
+  height: 80vh;
+  align-items: center;
+  justify-content: center;  
+  /* margin: 0px 100px; */
+  /* border-radius: 50px;
+  border: 5px ridge #000; */
+}
+
+
+#my-game .img-name{
+  width: 100px;
+  position: absolute;
+}
+.img-name{
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  border-radius: 20px;
+  position: absolute;
+  top: 80px;
+  cursor: pointer;
+}
+
+#game-funcion{
+  position: absolute;
+  text-align: center;
+  right: 0;
+  left: 0;
+  cursor: pointer;
+  
+}
+.funcion-item .new:hover{
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+.funcion-item .new{
+cursor: pointer;
+width: 200px;
+height: 80px;
+margin-bottom: 20px;
+border-radius: 50px;
+border: 5px ridge skyblue;
+background-color: aquamarine;
+font-size: 50px;
+font-variant: inherit;
+font-weight: 700;
+
+}
+.funcion-item .point:hover{
+  background: rgba( 0.2);
+  font-weight: 900;
+  letter-spacing: 1px;
+  
+  
+}
+.funcion-item .point{
+cursor: pointer;
+width: 160px;
+height: 70px;
+margin-bottom: 20px;
+border-radius: 50px;
+border: 5px ridge skyblue;
+background-color: rgb(235, 241, 239);
+font-size: 40px;
+color: #000;
+font-weight: 700;
+
+}
+.funcion-item .test:hover{
+  
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+.funcion-item .test{
+cursor: pointer;
+width: 160px;
+height: 70px;
+margin-bottom: 20px;
+border-radius: unset;
+border-radius: 50px;
+border: 5px ridge skyblue;
+background-color: rgb(243, 249, 247);
+font-weight: 700;
+font-size: 40px;
+
+}
+
+.game-name .img-game{
+  width: 400px;
+  margin-top: 230px;
+  
+}
+
+
+.container-img{
+  position: absolute;
+  text-align: center;
+  border: 20px ridge #83d3e1;
+  border-radius: 20px;
+  background-color: aliceblue;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);;
+ 
+ 
+}
+#list-topic{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.container-img .img-item:hover{
+  border-color: red
+}
+.container-img .img-item{
+  border-radius: 20px;
+  border: 2px ridge #000;
+  margin: 12px 13px;
+
+}
+
+.btn-back{
+  position: absolute;
+  bottom: 90px;
+  left: 80px;
+
+}
+.btn-back .back-button:hover{
+  color: aqua;
+}
+.btn-back .back-button{
+  font-size: 80px;
+}
+.img-animal:hover{
+  letter-spacing: 4px;
+  
+}
+.img-animal{
+  text-align: center;
+  margin-top: 30px;
+
+}
+.img-animal .animal-item{
+  border-radius: 50%;
+  width: 14%;
+  padding: 0px 20px;
+  
+}
+.img-animal .between-img{
+  margin-bottom: 35px;
+}
+
+.animal-vocabulary .vocabulary-item{
+  border-radius: 50%;
+  width: 14%;
+  text-align: center;
+  margin-top: 3px;
+}
+.vocabulary-item{
+padding: 0 10px;
+}
+.animal-vocabulary{
+  text-align: center;
+}
+
+.icon-time {
+    float: right;
+    top: 0;
+    position: absolute;
+    left: 0;
+    width: 110px;
+    
+}
+
+.img-list{
+  width: 50%;
+  height: 15%;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  top: 1px;
+  position: absolute;
+}
+
+.img-learn{
+  width: 200px;
+}
+
+
+
+
+.list-img div{
+  flex: 1;
+  padding: 5px;
+  cursor: pointer;
+  
+}
+.image-id{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+
+
+.control{
+  position: absolute;
+  top: 50%;
+  font-size: 40px;
+  color: #fff;
+  transform: translateY(-50%);
+  cursor: pointer;
+  
+}
+
+.prev{
+  color:rgba(0, 0, 0, 0.4);
+  left: 2px;
+  font-size: 30px;
+}
+.next{
+  color:rgba(0, 0, 0, 0.4);
+  right: 2px;
+  font-size: 30px;
+
+}
+
+.active{
+  background: rgb(235, 112, 112);
+}
+
+.read{
+  position: absolute;
+  top: 20%;
+  font-size: 70px;
+  color: #fff;
+  transform: translateY(-50%);
+  cursor: pointer;
+
+}
+.video-list{
+  min-width: 100vh;
+}
+.video-item, .item{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.video-item{
+    
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item{
+  border: #000 solid 5px;
+  border-radius: 10px;
+  margin: 10px;
+}
